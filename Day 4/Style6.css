@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+   
+}
+.topbox{
+    background-color: rgb(24, 119, 242);
+    padding-top: 8px;
+    
+}
+.topbox h3{
+    margin-left: 10px;
+    padding-top: 8px;
+    
+    
+}
+.fab{
+    background-color:rgb(24, 119, 242) ;
+    color: white;
+    margin-left: 1400px;
+   margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.nav{
+    background-color: black;
+    overflow: hidden;
+    
+    position: sticky;
+    top: 0;
+    
+}
+.nav img{
+    float: left;
+}
+.nav li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.nav button{
+    margin-left: 850px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+.nav li:hover{
+    background-color:white;
+    color: black;
+    
+}
+nav button:hover{
+    background-color: white;
+    color: orange;
+}
+.first{
+    display: grid;
+    grid-template-columns:  1fr 6fr;
+}
+.image{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.whole{
+    margin-top: 50px;
+}
+ .whole h3{
+  color: deepskyblue;  
+  margin-left:100px ;
+  font-size: 20px;
+
+}
+.whole h2{
+    margin-left: 100px;
+
+}
+.whole p{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.whole button{
+    margin-left: 100px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    
+}
+.whole button:hover{
+    background-color:white ;
+    color:orange;
+    
+    border-width: 2px;
+    border-color: orange;
+}
+.second{
+    display: grid;
+    grid-template-columns:  1fr 6fr;
+}
+.part{
+    margin-top: 80px;
+}
+
+.part h3{
+    color: deepskyblue;
+    margin-left:100px ;
+  font-size: 20px;
+}
+.part h2{
+    margin-left: 100px;
+
+}
+.part p{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.part button{
+    margin-left: 100px;
+    background-color: white;
+    color: orange;
+    border-color: orange;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
+.part button:hover{
+    background-color:orange ;
+    color:white;
+    
+    border-width: 2px;
+    border-color: white;
+}
+
+.footer{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.foot1{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.foot2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.foot3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.foot3 button{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
+.foot3 button:hover{
+    background-color: blueviolet;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+}

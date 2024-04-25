@@ -1,0 +1,87 @@
+.whole{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.body{
+    background-color:lavender;
+}
+.purple{
+    background-color: rgb(89, 10, 163);
+    margin-left: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+   
+}
+.chapters{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.con{
+    background-color: rgb(89, 10, 163);;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.purple h2{
+    color: white;
+}
+.chapters h2{
+    color: black;
+}
+
+
+.merged{
+    display: flex;
+    margin-top: 80px;
+}
+.orange{
+    background-color: rgb(216, 95, 24);
+    margin-left: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.chapter{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.button{
+    background-color:rgb(216, 95, 24);
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.orange h2{
+    color: white;
+  
+}
+.chapter h2{
+    color: black;
+}
+

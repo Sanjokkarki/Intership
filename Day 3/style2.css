@@ -1,0 +1,123 @@
+.outbox{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px;
+}
+.inbox{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+    padding: 0% auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login{
+    background-color: aqua;
+}
+
+
+
+
+
+.outerdiv{
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+    .outerdiv h1{
+        margin-left: 500px;  
+        margin-top: 20px;
+        
+        background-color: blueviolet;
+        display: inline;
+      }
+      .outerdiv p{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        background-color: cornflowerblue;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+
+      }
+      .outerdiv button{
+        background-color: darkgreen;
+        border: none;
+        border-radius: 9px;
+        margin-bottom: 50px;
+        margin-left: 450px;
+        padding: 20px;
+
+      }
+
+      .outdiv{
+        background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,56,1) 100%);
+        border-radius: 4px;
+       padding: 20px;
+      }
+       .innerouterdiv{
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 400px;
+        padding-right: 400px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      
+
+       }
+       .innerdiv{
+        background-color: cornflowerblue;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       }
+       
+       .innerdiv h1{
+        text-align: center;
+        text-decoration: underline;
+
+       }
+       .innerdiv b{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        margin-top: 10px;
+       }
+       .innerdiv p{
+        text-align: justify;
+        margin-top: 50px;
+        padding bottom: 20px;
+        
+       }
+       .btn1{
+        background: white;
+        border-radius: 2px;
+        width: 140px;
+        height: 50px;
+        border: 0px;
+        cursor: pointer;
+        
+       }
+       .btn2{
+        background: midnightblue;
+        color: white;
+        border-radius: 2px;
+        width: 140px;
+        height: 50px;
+        border: 0px;
+        cursor: pointer;
+        
+       }
