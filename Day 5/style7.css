@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    background-color: burlywood;
+}
+.buttom{
+    background-color: blue;
+    display: block;
+    position: fixed;
+    padding: 10px;
+    border-radius: 9px;
+    bottom: 3%;
+    right: 3%;
+
+}
+.fa-angle-up{
+font-size: 30px;
+    background-color: blue;
+    color: beige;
+   
+}
+    
+    
