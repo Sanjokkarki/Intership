@@ -278,11 +278,17 @@ color: #1c90fc;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 60px;
+    margin-right: 60px;
     gap: 20px;
+    text-align: center;
     padding-left: 150px;
+    position: relative;
+    z-index: 100;
 }
 .fa-solid{
-    background-color: rgb(208, 204, 204);
+    background-color: white;
+    color: #1c90fc;
+    border: 1px solid lightgray;
     padding: 40px;
     border-radius:50% ;
     font-size: 40px;
@@ -297,8 +303,37 @@ color: #1c90fc;
     color: white;
 }
 
+
+
+.dot{
+    /* margin-left: 270px;
+    margin-right: 400px; */
+    position: absolute;
+    top: 19%;
+    font-size: 30px;
+}
+.dot ul{
+    display: flex;
+    color: #1c90fc;
+   text-align: center;
+    gap: 110%;
+ 
+}
+.dot li{
+ list-style-type: none; 
+
+}
+.dot .lone{
+    margin-left: 400px;
+}
+.dot .ltwo{
+    margin-left:-250px ;
+}
+
 .run{
-    background-image:url(../Day\ 6/image/fun-bg.jpg)
+    background-image:url(../Day\ 6/image/fun-bg.jpg);
+    height: 100%;
+    width: 100%;
     
 
 }
@@ -494,11 +529,6 @@ color: #1c90fc;
     transition: .5s ease;
   backface-visibility: hidden;
   }
-
-
-
-
-  
 
  .overlay{
     transition: .5s ease;
@@ -941,4 +971,6 @@ cursor: pointer;
 	padding:25px 0px 25px 0px;
 	text-align:center;
 }
+
+
 
