@@ -331,7 +331,7 @@ color: #1c90fc;
 }
 
 .run{
-    background-image:url(../Day\ 6/image/fun-bg.jpg);
+    background-image:url(../Day6/image/fun-bg.jpg);
     height: 100%;
     width: 100%;
     
@@ -437,7 +437,7 @@ color: #1c90fc;
  .mid{
     /* height:100%;
 	width:100%; */
-	background-image:url('../Day\ 6/image/call-bg.jpg');
+	background-image:url('../Day6/image/call-bg.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
