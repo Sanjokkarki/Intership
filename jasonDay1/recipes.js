@@ -8,13 +8,14 @@ fetch('https://dummyjson.com/recipes')
     const newdata= data.recipes;
     let rows="";
 newdata.forEach((recipes) => {
-    rows +=`<div class="card" style="width: 18rem;">
+    rows +=`<div class="card text-center " style="width: 18rem;">
     <img src="${recipes.image}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${recipes.name}</h5>
       
       <p class="card-text">${recipes.ingredients}</p><br>
-      <p class="card-text">${recipes.instructions}</p>
+      <p class="card-text">${recipes.instructions}</p><br>
+      <a href="#" class="btn btn-primary p-2  ">price</a>
     </div>
   </div>` 
 });
