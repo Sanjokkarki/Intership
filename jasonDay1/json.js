@@ -18,6 +18,7 @@ fetch('https://dummyjson.com/products')
        <td>${products.rating}</td>
        <td>${products.brand}</td>
        <td>${products.category}</td>
+       
        <td>      <img style="width: 100px;" height="100px" src=${products.thumbnail}></td>
        <td><img style="width: 100px;" height="100px" src= ${products.images[0]}></td>
         </tr>` 
