@@ -15,7 +15,7 @@ newdata.forEach((recipes) => {
       
       <p class="card-text">${recipes.ingredients}</p><br>
       <p class="card-text">${recipes.instructions}</p><br>
-      <a href="#" class="btn btn-primary p-2  ">price</a>
+      <a href="#" class="btn btn-primary   ">price</a>
     </div>
   </div>` 
 });
